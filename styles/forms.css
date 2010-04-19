@@ -1,0 +1,177 @@
+.plus{
+    width:50px;
+    
+    float:left;}
+.hide{
+    display:none;
+}
+.divwrap{
+    margin-left:50px;
+}
+
+.error{
+        border:1px solid #a42a2a;
+        background-color:#ed8588;
+}
+
+.correct{
+        border:1px solid #4d9604;
+        background-color:#aced85;
+}
+
+.welcomePage_registerMember{
+        float:left;
+	background:#dfe4ee;
+	padding:10px;
+	color:#333333;
+	margin-bottom:20px;
+        width:450px;
+        -webkit-border-radius:5px;
+        -moz-border-radius:5px;
+}
+.welcomePage_registerMember h1 {
+	font-size:14px;
+	color:#000000;
+	padding-bottom:4px;
+}
+.welcomePage_registerMember p{padding-bottom:14px;}
+
+.welcomePage_registerMember input .input-text{
+	border:1px solid #3b6e22;
+	color:#666666;
+	width:180px;
+}
+
+.welcomePage_registerMember label{
+	font-size: 62.5%;
+	display:block;
+	margin-bottom:10px;
+	color:#555555;
+}
+
+.welcomePage_registerMember label span{
+	
+	display:block;
+	float:left;
+	padding-right:6px;
+	width:70px;
+	text-align:right;
+	font-weight:bold;
+}
+.spacer{margin-left:80px;
+	margin-bottom:10px;
+	font-size:11px;
+	color:#555555;
+}
+
+.green{
+	background:url(../images/green.gif);
+	padding:0px 6px;
+	border:1px solid #3b6e22;
+	height:24px;
+	line-height:24px;
+	color:#FFFFFF;
+	font-size:12px;
+	margin-right:10px;
+	display:inline-block;
+	text-decoration:none;
+}
+
+.welcomePage_registerAdvert{
+
+	border:solid 1px #c6cfe1;
+	background:#dfe4ee;
+	padding:10px;
+	color:#333333;
+	margin-bottom:20px;
+        margin-left:500px;
+        width:450px;
+        -webkit-border-radius:5px;
+        -moz-border-radius:5px;
+}
+
+.welcomePage_registerAdvert h1 {
+	font-size:14px;
+	color:#000000;
+	padding-bottom:4px;
+}
+.welcomePage_registerAdvert p{
+	
+	padding-bottom:14px;}
+
+.welcomePage_registerAdvert input .input-text{
+	border:1px solid #3b6e22;
+	color:#666666;
+	width:180px;
+}
+
+.welcomePage_registerAdvert label{
+	font-size: 62.5%;
+	display:block;
+	margin-bottom:10px;
+	color:#555555;
+}
+
+.welcomePage_registerAdvert label span{
+	display:block;
+	float:left;
+	padding-right:6px;
+	width:70px;
+	text-align:right;
+	font-weight:bold;
+}
+.status{
+	margin-top:10px;
+	display:none;
+	border: 1px solid green;
+	background-color:#d1ff9f;
+	width:auto;
+	padding:1px;
+}
+
+/*EditProfile*/
+#profile{
+	margin-top:20px;
+}
+.profilePic{
+	float:left;
+}
+.profileInfo{
+	margin-left:350px;
+   font-size: 62.5%;
+	background:#dfe4ee;
+	padding:10px;
+	color:#333333;
+	margin-bottom:20px;
+        width:450px;
+        -webkit-border-radius:5px;
+        -moz-border-radius:5px;
+}
+.profileInfo h1 {
+	font-size:14px;
+	color:#000000;
+	padding-bottom:4px;
+}
+.profileInfo p{padding-bottom:14px;}
+
+.profileInfo input .input-text{
+	border:1px solid #3b6e22;
+	color:#666666;
+	width:180px;
+}
+
+.profileInfo label{
+	display:inline-block;
+	margin-bottom:10px;
+	color:#555555;
+	
+}
+
+.profileInfo label span{
+	display:block;
+	float:left;
+	padding-right:6px;
+	width:70px;
+	text-align:right;
+	font-weight:bold;
+}

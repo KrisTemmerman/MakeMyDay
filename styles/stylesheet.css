@@ -1,0 +1,303 @@
+/*
+Document   : stylesheet
+Created on : 27-nov-2009, 21:34:17
+Author     : Kris Temmerman
+Description:
+Purpose of the stylesheet follows.
+*/
+/* #########################
+#########General#########
+#########################*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    height:100%;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+p{
+font-size:12px;
+}
+
+
+a{
+    border:none;
+    text-decoration:none;
+}
+
+img {
+    border:none;
+}
+
+#container{
+    width:960px;
+    margin:0 auto;
+    margin-top: 10px;
+}
+.container{
+
+    width:960px;
+    margin:0 auto;
+    margin-top: 10px;
+}
+
+#header ,#container{
+    /*font-size:1.6em;*/
+}
+
+
+/* #########################
+####Header####
+#########################*/
+#header
+{
+    background:url(../images/header.jpg) repeat-x;
+    width: 100%;
+    height:42px;
+}
+
+.headerWrap{
+    margin:0 auto;
+    width:960px;
+}
+.logo{
+    padding-top:10px;
+    float:left;
+}
+.headerMenu{
+    float:right;
+
+}
+.headerMenu a{
+    color:#FFF
+
+}
+.headerMenu a:hover{
+    color:#0C0;
+}
+
+/* #########################
+##########MENU###########
+#########################*/
+.headerMenu{
+    font-family:sans-serif;
+    color:white;
+    margin:25px 0 0 0;
+    font-size:12px;
+}
+
+.headerMenu ul{
+    display: block;
+    list-style:none;
+    
+}
+
+
+.headerMenu li{
+    margin-left:10px;
+    display:inline;
+}
+
+
+/*Content*/
+#content{
+    width:100%;
+    /*background: url(../images/contentGrad.jpg) repeat-x bottom;*/
+}
+#container{
+    width:960px;
+    margin:20 auto 0 auto;
+    
+}
+
+/* Left sidebar*/
+#sidebar{
+    float:left;
+    width:145px;
+    margin-top: 20px;
+}
+#sidebar ul{
+    list-style:none;}
+#sidebar li{
+    display:block;
+    height:30px;
+    padding-top:5px;
+    padding-left:5px;
+    border-bottom:1px solid #eeeeee;
+}
+.sideBarHover{
+    background-color:#f0ffe3;
+}
+.originalstate{
+    display:block;
+    height:30px;
+    padding-top:5px;
+    padding-left:5px;
+    border-bottom:1px solid #eeeeee;
+}
+#sidebar .selected{
+    background-color:#76a051;
+}
+/* right sidebar*/
+#rightSidebar{
+    float:right;
+    width:145px;
+    margin-top: 20px;
+}
+.rightSideBar a{
+ margin-bottom:2px;
+}
+#rightSidebar ul{
+    list-style:none;}
+#rightSidebar li{
+    display:block;
+    height:30px;
+    padding-top:5px;
+    padding-left:5px;
+   /* border-bottom:1px solid #eeeeee;*/
+}
+.rightSideBarHover{
+   background-color:#f0ffe3;
+}
+.originalstate{
+    display:block;
+    height:30px;
+    padding-top:5px;
+    padding-left:5px;
+    border-bottom:1px solid #eeeeee;
+}
+#sidebar .selected{
+    background-color:#76a051;
+}
+
+/* activity */
+#activities{
+    margin-top:15px;
+    margin-left:5px;
+    float:left;
+    width:600px;
+}
+.activityPhoto p{
+    margin-top:1px;
+    text-align: center;
+    color:red;
+}
+.activityWrapper{
+    padding-top:2px;
+    padding-bottom:2px;
+    margin-top:5px;
+    width:100%;
+    display:inline-block;
+    border-bottom:1px solid #cccccc;
+}
+.activityPhoto{
+    float:left;
+    width:90px;
+    height:90px;
+    margin-left:2px;
+}
+
+.activityContent{
+    padding-top:5px;
+    width:500px;
+    float:left;
+    margin-left:2px;
+
+}
+#activities h4{
+    border-bottom:1px solid #cccccc;
+}
+.activityHover{
+    background-color:#fff3a4
+}
+
+/*WelcomePage*/
+#welcomePage_header
+{
+	background-color: #212121;
+	width: 100%;
+	height: 80px;
+}
+
+.welcomePage_headerWrap{
+    margin:0 auto;
+    width:960px;
+}
+.welcomePage_logo{
+    padding-top:20px;
+    float:left;
+}
+.welcomePage_headerMenu{
+    float:right;
+
+}
+.welcomePage_Container{
+    width:960px;
+    margin:0 auto;
+    margin-top: 10px;
+}
+.welcomePage_Login{
+    padding-top:25px;
+    float:right;
+    width:auto;
+
+}
+
+#welcomePage_email{
+    border:1px solid #555555;
+    background-color:#333333;
+    color:white;
+    height:20px;
+}
+#welcomePage_password{
+    border:1px solid #555555;
+    background-color:#333333;
+    color:white;
+    height:20px;
+
+}
+
+#welcomePage_submit{
+    border:1px solid #555555;
+    background-color:#333333;
+    padding-left:16px;
+
+    background:url(../images/login.png) no-repeat left bottom ;
+    color:white;
+    height:20px;
+}
+
+#welcomePage_submit:hover{
+    color:black;
+    background-color:#CCCCCC;
+}
+#errorbar{
+	display:none;
+	height:30px;
+	border-bottom:1px solid #FF4945;
+	width:100%;
+	background-color:#ed8588;
+}
+#error{
+	width:960px;
+	margin:0 auto;
+	padding-top:10px;
+	color:white;
+	font-weight: bold;
+}
+
+/* Start SearchBar */
+    #searchbar{
+        float:right;
+    }
+        #inputString{
+            border:1px solid #2e8b57;
+            background-color: #ffffff;
+            background-image:url("../images/search.png");
+            background-repeat:no-repeat;
+            padding:0 0 0 20px;
+        }

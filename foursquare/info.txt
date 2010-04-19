@@ -1,0 +1,40 @@
+Foursquare OAuth Provider
+
+    
+
+Click here to register a new consumer
+
+    
+
+      
+
+      
+Registered Consumers
+
+      
+
+      
+
+        Request Token URL: http://foursquare.com/oauth/request_token
+
+        Access Token URL: http://foursquare.com/oauth/access_token
+
+        Authorize URL: http://foursquare.com/oauth/authorize
+      
+
+      
+
+      
+We currently support hmac-sha1 signed requests
+
+      
+        
+        
+
+          Application Name: Make My Day
+
+          Callback URL: http://www.konzepd.be/mmd/foursquare
+
+          Key: OSRRNTKP3LEPC3LC03SWLUUNWUM0J2CIVXLYIEE5TBLYGYPE
+
+          Secret: KQRLP0HLFBHOEBA1QWGRZFCWRNLB344KRWDGD14DHE1W3AUV
