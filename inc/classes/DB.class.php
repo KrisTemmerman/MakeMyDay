@@ -3,7 +3,7 @@
 class DB {
 	protected $db_name = 'mmday';
 	protected $db_user = 'root';
-	protected $db_pass = 'root';
+	protected $db_pass = '...';
 	protected $db_host = 'localhost';
 	
 	//automatically should open a db connection
